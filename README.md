@@ -1,1 +1,6 @@
 # Diabetes-detection
+This project focuses on predicting diabetes in patients using a machine learning approach, specifically the Support Vector Machine (SVM) algorithm. The dataset includes various medical features such as glucose level, BMI, age, insulin, and blood pressure. The aim is to develop a binary classification model that can accurately distinguish between diabetic and non-diabetic individuals based on these features.
+
+Support Vector Machine is a supervised learning algorithm that constructs a decision boundary—called a hyperplane—that best separates the two classes by maximizing the margin between them. This makes SVM particularly effective for classification tasks, especially when the data is high-dimensional or not linearly separable, as it can use kernel functions to handle more complex relationships.
+
+The performance of the model is evaluated using the accuracy_score metric from scikit-learn, which measures the proportion of correctly classified instances over the total number of predictions. A higher accuracy indicates better generalization of the model on unseen data. This project demonstrates how theoretical concepts in machine learning can be applied to real-world healthcare problems, providing a foundation for building intelligent diagnostic tools.
